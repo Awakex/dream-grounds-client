@@ -1,16 +1,37 @@
 .groundItem
+  position: relative
   display: flex
   flex-direction: column
   justify-content: center
   align-items: center
   padding: 20px
-  border: 1px solid black
-  box-shadow: 0 0 5px black
   margin: 10px
   width: 30%
-  height: 150px
+  height: 280px
   cursor: pointer
   line-height: 1.1
-  transition: box-shadow .2s ease
-  &:hover
-    box-shadow: 0 0 10px black
+  transition: all .2s ease
+
+.groundInfo
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  background-color: rgba(0, 0, 0, 0.35)
+  color: white
+  font-weight: 500
+  font-size: 1.2rem
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  position: absolute
+  z-index: 2
+  border-radius: 20px
+
+.groundImage
+  position: absolute
+  width: 75%
+  max-width: 250px
+  height: auto
+

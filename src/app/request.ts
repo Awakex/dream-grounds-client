@@ -1,7 +1,12 @@
 import axios from "axios";
 
+// export const REQUEST_CONFIG = {
+//     URL: "http://localhost:3000/",
+//     TIMEOUT: 25000,
+// };
+
 export const REQUEST_CONFIG = {
-    URL: "http://localhost:3000/",
+    URL: "http://188.187.148.35:3000/",
     TIMEOUT: 25000,
 };
 
